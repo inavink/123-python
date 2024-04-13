@@ -1,4 +1,4 @@
 # For loop example in python program
 fruits = ["Apple", "Banana", "Mango", "Grapes", "Guava", "Coconut"]
-for f in fruits:
-    print(f)
+for z in fruits:
+    print(z)
