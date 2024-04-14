@@ -3,8 +3,8 @@ print("Enter the month (1-12)")
 M=int(input())
 if ((M > 0) & (M <=12)):
     if M==2:
-        Y=int(input("Enter year (e.g. 2024)"))
-        if ((Y %4==0) and (not(Y%100==0)) or (Y%400==0)):
+        Year=int(input("Enter year (e.g. 2024)"))
+        if ((Year %4==0) and (not(Year%100==0)) or (Year%400==0)):
             num_days = 29
             print("Number of days in Month ", M, "is ", num_days) 
         else:
